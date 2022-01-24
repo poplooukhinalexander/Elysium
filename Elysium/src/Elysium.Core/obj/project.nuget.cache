@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "2gDej+WVgWYYc0kMrBUj3urhXV1K631KvXkAdsnjqutui3UUg8DrVPDF+xuQ0z+xBVyvgd3l8pEpQvkAQ6331w==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\Elysium\\Elysium\\src\\Elysium.Core\\Elysium.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\white\\.nuget\\packages\\ardalis.guardclauses\\3.2.0\\ardalis.guardclauses.3.2.0.nupkg.sha512",
+    "C:\\Users\\white\\.nuget\\packages\\ardalis.result\\3.1.1\\ardalis.result.3.1.1.nupkg.sha512",
+    "C:\\Users\\white\\.nuget\\packages\\ardalis.specification\\5.1.0\\ardalis.specification.5.1.0.nupkg.sha512",
+    "C:\\Users\\white\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
+    "C:\\Users\\white\\.nuget\\packages\\jetbrains.annotations\\2021.1.0\\jetbrains.annotations.2021.1.0.nupkg.sha512",
+    "C:\\Users\\white\\.nuget\\packages\\mediatr\\9.0.0\\mediatr.9.0.0.nupkg.sha512",
+    "C:\\Users\\white\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
