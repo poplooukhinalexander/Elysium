@@ -11,11 +11,11 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Elysium.Core", "D:\\Projects\\Elysium\\Elysium\\src\\Elysium.Core", "Elysium.Core.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Elysium.Infrastructure", "D:\\Projects\\Elysium\\Elysium\\src\\Elysium.Infrastructure", "Elysium.Infrastructure.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Elysium.SharedKernel", "D:\\Projects\\Elysium\\Elysium\\src\\Elysium.SharedKernel", "Elysium.SharedKernel.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Elysium.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Projects\\Elysium\\Elysium\\src\\Elysium.Core", "Elysium.Core.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Elysium.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Projects\\Elysium\\Elysium\\src\\Elysium.Infrastructure", "Elysium.Infrastructure.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Elysium.SharedKernel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Projects\\Elysium\\Elysium\\src\\Elysium.SharedKernel", "Elysium.SharedKernel.csproj", "0")]
 [assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Elysium.UnitTests", "D:\\Projects\\Elysium\\Elysium\\tests\\Elysium.UnitTests", "Elysium.UnitTests.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Elysium.Web", "D:\\Projects\\Elysium\\Elysium\\src\\Elysium.Web", "Elysium.Web.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("Elysium.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "D:\\Projects\\Elysium\\Elysium\\src\\Elysium.Web", "Elysium.Web.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Elysium.IntegrationTests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

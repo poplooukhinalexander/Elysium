@@ -9,6 +9,7 @@ namespace Elysium.Web.Api
 {
 	using ApiModels;
 	using ApiModels.Feedback;
+	using ApiModels.Photo;
 	using ApiModels.Tour;
 	using ApiModels.UserProfile;
 
@@ -49,7 +50,7 @@ namespace Elysium.Web.Api
 		/// Возвращает детальную информацию о туре.
 		/// </summary>
 		/// <param name="tourId">ИД. тура.</param>
-		/// <param name="expandParams">?expand=Companions&expand=TourProvider&expand=Feedbacks</param>
+		/// <param name="expandParams">?expand=Route&expand=TourProvider</param>
 		/// <returns>Объект типа <see href="DetailedTourInfoDTO">DetailedTourInfoDTO</see></returns>
 		/// <response code="200">OK.</response>
 		/// <response code="404">Not found.</response>
@@ -90,6 +91,22 @@ namespace Elysium.Web.Api
 		public async Task<IActionResult> GetFeedbacks(Guid tourId, [FromQuery] SearchFeedbackParametersDTO searchParameters)
 		{
 			return await Task.Run(() => Ok(new SearchResultDTO<FeedbackDTO>()));
+		}
+
+		/// <summary>
+		/// Возвращает постранично фотки.
+		/// </summary>
+		/// <param name="tourId">ИД.тура</param>
+		/// <param name="searchParameter">Параметры постраничной заргузки фото.</param>
+		/// <returns>Постраничный вывод фоток.</returns>
+		/// <response code="200">OK.</response>
+		/// <response code="400">Невалидные параметры постраничной загрузки.</response>
+		/// <response code="404">Нет фоток.</response>
+		[HttpGet("{tourId:Guid}/photos")]
+		[ResponseType(typeof(SearchResultDTO<PhotoDTO>))]
+		public async Task<IActionResult> GetPhotos(Guid tourId, [FromQuery] SearchParameterDTO searchParameter)
+		{
+			return await Task.Run(() => Ok(new SearchResultDTO<PhotoDTO>()));
 		}
 	}
 }
